@@ -1,7 +1,7 @@
 require 'pry'
 class PigLatinizer
 
-  def piglatin(input)
+  def piglatinize(input)
     input_array = input.downcase.split(" ")
     output = []
 
@@ -14,7 +14,7 @@ class PigLatinizer
 
   end
 
-  def piglatinize(old_word)
+  def latinizer(old_word)
     suffix_ay = "ay"
     suffix_way = "way"
     @add_ay = false
