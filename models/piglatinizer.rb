@@ -18,7 +18,7 @@ class PigLatinizer
     suffix_ay = "ay"
     suffix_way = "way"
 
-    letters_array = old_word.split
+    letters_array = old_word.split("")
 
     new_letters_array = check_if_vowel(letters_array)
 
