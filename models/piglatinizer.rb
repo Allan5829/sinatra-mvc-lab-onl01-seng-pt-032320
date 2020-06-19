@@ -39,7 +39,7 @@ class PigLatinizer
       array.shift
       array << first_letter
       @add_ay = true
-      binding.binding.pry
+      binding.pry
       check_if_vowel(array)
     else
       @add_ay = false
