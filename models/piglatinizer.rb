@@ -21,7 +21,6 @@ class PigLatinizer
     letters_array = old_word.split
 
     new_letters_array = check_if_vowel(letters_array)
-    binding.pry
 
     word = new_letters_array.join
     if @add_ay = true
@@ -36,6 +35,7 @@ class PigLatinizer
 
   def check_if_vowel(array)
     first_letter = array[0]
+    binding.rpy
     if ["a", "e", "i", "o", "u"].any? { |letter| first_letter.include? letter}
       @add_ay = false
       return array
