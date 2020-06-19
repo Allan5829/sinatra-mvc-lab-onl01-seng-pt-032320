@@ -35,7 +35,6 @@ class PigLatinizer
 
   def check_if_vowel(array)
     first_letter = array[0]
-    binding.pry
     if ["a", "e", "i", "o", "u"].any? { |letter| first_letter.include? letter}
       @add_ay = false
       return array
