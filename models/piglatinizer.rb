@@ -25,9 +25,9 @@ class PigLatinizer
 
     word = new_letters_array.join
     #binding.pry
-    if @add_ay = true
+    if @add_ay == true
       new_word = [word, suffix_ay].join
-    else
+    elsif @add_ay == false
       new_word = [word, suffix_way].join
     end
 
