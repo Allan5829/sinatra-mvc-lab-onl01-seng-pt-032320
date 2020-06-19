@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  def latin_whole_input(input)
+  def piglatinize(input)
     input_array = input.downcase.split(" ")
     output = []
 
