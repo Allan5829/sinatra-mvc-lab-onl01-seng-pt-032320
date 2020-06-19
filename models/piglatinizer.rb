@@ -10,7 +10,7 @@ class PigLatinizer
     end
 
     output_array = output.join(" ")
-    output_array.lowercase
+    output_array
 
   end
 
