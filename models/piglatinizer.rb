@@ -38,7 +38,7 @@ class PigLatinizer
 binding.pry
     if ["a", "e", "i", "o", "u"].any? { |letter| first_letter.include? letter}
       @add_ay = false
-      return array
+      array
       binding.pry
     else
       array.shift
