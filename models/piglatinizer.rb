@@ -42,7 +42,6 @@ class PigLatinizer
       #binding.pry
       check_if_vowel(array)
     else
-      @add_ay = false
       return array
       binding.pry
     end
