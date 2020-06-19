@@ -1,3 +1,4 @@
+require 'pry'
 class PigLatinizer
 
   def piglatin(input)
@@ -20,6 +21,7 @@ class PigLatinizer
     letters_array = old_word.split
 
     new_letters_array = check_if_vowel(letters_array)
+    binding.pry
 
     word = new_letters_array.join
     if @add_ay = true
