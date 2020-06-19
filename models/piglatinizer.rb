@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  def piglatinize(input)
+  def piglatin(input)
     input_array = input.downcase.split(" ")
     output = []
 
@@ -13,7 +13,7 @@ class PigLatinizer
 
   end
 
-  def latinizer(old_word)
+  def piglatinize(old_word)
     suffix_ay = "ay"
     suffix_way = "way"
 
