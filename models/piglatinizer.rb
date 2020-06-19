@@ -2,7 +2,7 @@ require 'pry'
 class PigLatinizer
 
   def piglatinize(input)
-    input_array = input.downcase.split(" ")
+    input_array = input.split(" ")
     output = []
 
     input_array.each do |i|
