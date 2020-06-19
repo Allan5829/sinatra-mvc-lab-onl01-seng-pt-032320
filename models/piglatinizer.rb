@@ -1,16 +1,16 @@
 class PigLatinizer
-  attr_accessor :input
+  attr_accessor :words
 
   def initialize(input)
-    @input = input.downcase
+    @words = input.downcase
   end
 
   def latin_whole_input(input)
     input_array = input.split(" ")
     output = []
 
-    input_array.each do |words|
-      output << latinizer(words)
+    input_array.each do |i|
+      output << latinizer(i)
     end
 
     output_array = output.join(" ")
