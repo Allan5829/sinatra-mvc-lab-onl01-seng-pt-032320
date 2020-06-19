@@ -17,13 +17,14 @@ class PigLatinizer
   def piglatinize(old_word)
     suffix_ay = "ay"
     suffix_way = "way"
+    @add_ay = false
 
     letters_array = old_word.split("")
 
     new_letters_array = check_if_vowel(letters_array)
 
     word = new_letters_array.join
-    binding.pry
+    #binding.pry
     if @add_ay = true
       new_word = [word, suffix_ay].join
     else
